@@ -1,0 +1,27 @@
+{
+	"id": "1bb352fe-fdcf-4a18-942b-a83270fa6fbd",
+	"name": "Comments Fake API Env",
+	"values": [
+		{
+			"key": "commentId",
+			"value": "1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "secretCommentId",
+			"value": "2",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "Some_disabled_var",
+			"value": "",
+			"type": "default",
+			"enabled": false
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2023-02-17T21:00:41.635Z",
+	"_postman_exported_using": "Postman/10.9.4"
+}

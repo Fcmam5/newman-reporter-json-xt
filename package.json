@@ -1,0 +1,40 @@
+{
+  "name": "newman-reporter-json-xt",
+  "version": "1.0.0",
+  "description": "Generates a JSON report output with obfuscated secrets",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "format": "prettier --write src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fcmam5/newman-reporter-json-xt.git"
+  },
+  "keywords": [
+    "newman",
+    "json",
+    "json-reporter",
+    "reporters",
+    "postman"
+  ],
+  "author": "Abdeldjalil Fortas (Fcmam5)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fcmam5/newman-reporter-json-xt/issues"
+  },
+  "homepage": "https://github.com/Fcmam5/newman-reporter-json-xt#readme",
+  "devDependencies": {
+    "@types/newman": "^5.3.2",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.4",
+    "prettier-eslint": "^15.0.1"
+  }
+}
